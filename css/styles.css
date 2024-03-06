@@ -139,3 +139,77 @@ footer a {
 footer:hover {
     transform: translateY(-10px);
 }
+
+.experiencia {
+    margin-top: 10%;
+    margin-left: 28%;
+}
+
+table, th, td, tr {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+th {
+    background-color: rgb(139, 206, 238);
+    color: white;
+}
+
+td {
+    background-color: #aaaaaa;
+    color: white;
+    
+}
+
+.first-line th:first-of-type {
+    border-top-left-radius: 10px;
+}
+
+.first-line td:last-of-type {
+    border-top-right-radius: 10px;
+}
+
+.fourth-line th:first-of-type {
+    border-bottom-left-radius: 10px;
+}
+
+.fourth-line td:last-of-type {
+    border-bottom-right-radius: 10px;
+}
+
+
+.descripcion_exp {
+    margin-top: 40px;
+    margin-left: 25%;
+    width: 50%;
+    padding: 20px;
+    border: 2px solid #aaaaaa;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(121, 121, 121);
+}
+
+.descripcion_exp h2 {
+    text-align: center;
+    border: 2px solid #aaaaaa;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.descripcion_exp h4 {
+    border: 2px solid #aaaaaa;
+    border-radius: 20px;
+    padding: 10px;
+    width:fit-content;
+    margin: auto;
+}
+
+.desc_2019, .desc_2022, .desc_2023 {
+    transition: all ease 0.5s;
+}
+
+.desc_2019:hover, .desc_2022:hover, .desc_2023:hover {
+    transform: translateY(-10px);
+}
