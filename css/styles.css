@@ -1,0 +1,141 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(250, 250, 255);
+}
+
+.encabezado {
+    font-family: Arial;
+    text-align: center;
+}
+
+.topnav {
+    border: 2px solid #aaaaaa;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgb(121, 121, 121);
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #aaaaaa;
+}
+
+.topnav a.active {
+    background-color: rgb(139, 206, 238);
+}
+
+.primera-linea {
+    float: left;
+    margin-left: 25%;
+    width: 75%;
+}
+
+.fotocv {
+    float: left;
+    border: 2px solid #aaaaaa;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgb(121, 121, 121);
+}
+
+.div_datos {
+    float: left;
+    border: 2px solid #aaaaaa;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 100px;
+    box-shadow: 5px 5px 5px rgb(121, 121, 121);
+    transition: all ease 0.5s;
+}
+
+.div_datos p {
+    text-align: center;
+}
+
+.div_datos:hover {
+    transform:scale(125%);
+}
+
+.nombre {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.segunda-linea {
+    float: left;
+    margin-left: 23%;
+    margin-top: 20px;
+    width: 77%;
+}
+
+.columna_izq {
+    float: left;
+    overflow: hidden;
+    border: 2px solid #aaaaaa;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-top: 16px;
+    padding-bottom: 34px;
+    width: 32%;
+    box-shadow: 5px 5px 5px rgb(121, 121, 121);
+    transition: all ease 0.5s;
+}
+
+.columna_izq a{
+    text-decoration: none;
+    color: black;
+}
+
+.columna_izq i {
+    margin-left: 5px;
+}
+
+.columna_izq:hover {
+    transform: scale(120%);
+}
+
+.columna_der {
+    float: left;
+    overflow: hidden;
+    border: 2px solid #aaaaaa;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 49px;
+    padding-left: 10px;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgb(121, 121, 121);
+    transition: all ease 0.5s;
+}
+
+.columna_der:hover {
+    transform: scale(120%);
+}
+
+footer {
+    text-align: center;
+    transition: all ease 0.5s;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid #aaaaaa;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(121, 121, 121);
+    padding: 10px;
+}
+
+footer:hover {
+    transform: translateY(-10px);
+}
