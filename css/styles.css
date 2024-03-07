@@ -141,13 +141,18 @@ footer:hover {
 }
 
 .experiencia {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 28%;
 }
 
 .formacion {
-    margin-top: 10%;
-    margin-left: 25.5%;
+    margin-top: 5%;
+    margin-left: 29.7%;
+}
+
+.complementaria {
+    margin-top: 5%;
+    margin-left: 27%;
 }
 
 table, th, td, tr {
@@ -217,4 +222,36 @@ td {
 
 .desc_2019:hover, .desc_2022:hover, .desc_2023:hover {
     transform: translateY(-10px);
+}
+
+.perfil_profesional * {
+    text-align: center;
+    margin-top: 5%;
+    border: 2px solid #aaaaaa;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 3%;
+    padding: 10px;
+}
+.perfil_profesional p {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.chip {
+    margin: auto;
+    margin-top: 10%;
+    width: 50%;
+}
+
+.chip p {
+    list-style-type: none;
+    border: 2px solid #aaaaaa;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    margin-top: 5%;
 }
