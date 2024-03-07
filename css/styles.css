@@ -145,6 +145,11 @@ footer:hover {
     margin-left: 28%;
 }
 
+.formacion {
+    margin-top: 10%;
+    margin-left: 25.5%;
+}
+
 table, th, td, tr {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
