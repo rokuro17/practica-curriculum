@@ -247,3 +247,56 @@ td {
     margin-right: auto;
     width: 50%;
 }
+
+.competencias-y-habilidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 2%;
+}
+
+.competencias ul, .habilidades ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 7%;
+}
+
+.competencias, .habilidades {
+    text-align: center;
+    border: 2px solid #aaaaaa;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding: 1%;
+    height: fit-content;
+    align-self: center;
+    transition: all ease 0.5s;
+}
+
+.competencias:hover, .habilidades:hover {
+    transform: scale(110%);
+}
+
+.to-top {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    border: 2px solid #aaaaaa;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(121, 121, 121);
+    background-color: rgb(250, 250, 255);
+    text-align: center;
+    width:fit-content;
+    height: fit-content;
+    transition: all ease 0.5s;
+}
+
+.to-top a {
+    color: black;
+}
+
+.to-top:hover{
+    transform: translateY(-10px);
+}
