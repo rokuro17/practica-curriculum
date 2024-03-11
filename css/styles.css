@@ -138,6 +138,7 @@ footer:hover {
 .experiencia {
     margin-top: 5%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -238,4 +239,11 @@ td {
     margin: auto;
     margin-top: 3%;
     padding: 10px;
+}
+
+.empresas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
