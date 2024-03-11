@@ -295,6 +295,7 @@ td {
 
 .to-top a {
     color: black;
+    text-decoration: none;
 }
 
 .to-top:hover{
